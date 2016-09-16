@@ -1,0 +1,27 @@
+{
+  "name": "shiny-node",
+  "version": "1.0.0",
+  "description": "Service booking platform",
+  "scripts": {
+    "start": "node web.js",
+    "test": "mocha test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cderche/shiny-node.git"
+  },
+  "keywords": [
+    "services",
+    "booking",
+    "platform"
+  ],
+  "author": "Cyrille Derche",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cderche/shiny-node/issues"
+  },
+  "homepage": "https://github.com/cderche/shiny-node#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
